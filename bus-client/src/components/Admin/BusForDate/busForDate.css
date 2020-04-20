@@ -1,0 +1,27 @@
+.find-bus-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.button2 {
+    cursor: pointer;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(20, 220, 80);
+    color: white;
+    margin: 0 0 1rem;
+    display: inline-block;
+}
+
+.each-selected-bus {
+    margin-top: 8px;
+    background-color: #5F9EA0;
+    padding: 0.3rem;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #fff;
+    transition: 300ms;
+}

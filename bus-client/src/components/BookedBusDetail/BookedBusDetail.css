@@ -1,0 +1,51 @@
+.bus__booked--deatails-ctn {
+    height: 100vh;
+    background-color: rgba(204, 204, 204, 0.356);
+    padding: 1rem;
+}
+
+.bus__booked--deatails {
+    margin: 0.5rem;
+    background-color: #fff;
+}
+
+.bus__booked--deatails p {
+    padding: 8px 16px;
+}
+
+.seat-number {
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    padding: 4px;
+    text-align: center;
+    background-color: chartreuse;
+    color: #fff;
+    margin: 8px;
+    border-radius: 50%;
+}
+
+.seat-number:hover {
+    background-color: red;
+}
+
+.cancel-info {
+    font-size: 10px;
+    padding: 4px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 2px;
+}
+
+.red {
+    margin-top: 1rem;
+    background-color: red;
+}
+
+.cancel-button {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: crimson;
+    color: #fff;
+}

@@ -1,0 +1,66 @@
+.add-bus-form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: rgb(242, 247, 237);
+    border-radius: 4px;
+}
+
+.add-bus-form .button {
+    display: inline-block;
+}
+
+.add-bus-form span {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.add-bus-form label {
+    background-color: rgba(204, 204, 204, 0.925);
+    padding: 0.2rem;
+    margin: 0.4rem;
+}
+
+.add-bus-form input {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: olivedrab 1px solid;
+    outline: none;
+    font-size: 1.1rem;
+    width: 130px;
+    text-align: center;
+}
+
+.add-bus-form input:focus {
+    border-bottom: rgb(255, 198, 10) 1px solid;
+}
+
+input[type=checkbox] {
+    position: relative;
+    height: 37px;
+    width: 37px;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    outline: none;
+    border-bottom: none;
+}
+
+input[type=checkbox]:focus {
+    border-bottom: none;
+}
+
+input[type=checkbox]:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ccc;
+}
+
+input:checked[type=checkbox]:before {
+    background-color: cornflowerblue;
+}

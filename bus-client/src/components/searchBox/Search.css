@@ -1,0 +1,7 @@
+.search-box {
+    display: inline-block;
+    padding: 1rem;
+    border: 2px solid blueviolet;
+    border-radius: 4px;
+    max-height: 500px;
+}

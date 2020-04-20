@@ -1,0 +1,10 @@
+.map-container {
+    height: 500px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.map-container img {
+    height: 20px;
+    width: 20px;
+}

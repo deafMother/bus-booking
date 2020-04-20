@@ -1,0 +1,16 @@
+.seat-number {
+  cursor: pointer;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  padding: 4px;
+  text-align: center;
+  background-color: chartreuse;
+  color: #fff;
+  margin: 8px;
+  border-radius: 50%;
+}
+
+.seat-number:hover {
+  background-color: red;
+}

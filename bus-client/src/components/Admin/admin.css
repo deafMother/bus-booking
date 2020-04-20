@@ -1,0 +1,22 @@
+.admin-menu {
+    margin: 1rem 0 1rem;
+    padding: 0.3rem 1rem;
+    border: rgba(95, 158, 160, 0.466) 2px solid;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.admin-menu-btn {
+    margin-right: 0.5rem;
+    font-size: 10px;
+    transition: all 200ms linear 50ms;
+    border: 1px solid transparent;
+}
+
+.admin-menu-btn:hover {
+    background-color: #fff;
+    color: rgb(20, 220, 80);
+    border: 1px solid rgb(20, 220, 80);
+}

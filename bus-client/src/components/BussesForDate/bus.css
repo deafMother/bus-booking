@@ -1,0 +1,42 @@
+.max-500 {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.bus {
+    cursor: pointer;
+    padding: 1rem;
+    background-color: darkseagreen;
+    color: darkslategrey;
+    margin: 0.4rem;
+    border-radius: 4px;
+    opacity: 0.8;
+    transform: scale(1);
+    transition: all 200ms linear;
+}
+
+.bus:hover {
+    opacity: 1;
+    transform: scale(1.009);
+}
+
+.header__highlight {
+    padding: 5px;
+    display: inline-block;
+    max-height: 1.7rem;
+}
+
+.available, .not__available {
+    font-size: 8px;
+    margin-top: 1rem;
+    padding: 2px 6px;
+    display: inline-block;
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 6px;
+}
+
+.not__available {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}

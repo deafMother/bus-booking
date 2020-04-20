@@ -1,0 +1,22 @@
+.pop-up {
+  position: fixed;
+  left: 50%;
+  top: -40%;
+  transform: translateX(-50%);
+  padding: 0.6rem 2rem;
+  border-radius: 4px;
+  transition: top 400ms ease-in 50ms;
+  background-color: cornsilk;
+}
+
+.success {
+  background-color: chartreuse;
+  color: #fff;
+  top: 8%;
+}
+
+.error {
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  top: 8%;
+}
